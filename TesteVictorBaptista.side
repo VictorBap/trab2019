@@ -1,0 +1,461 @@
+{
+  "id": "ea224a31-5ab5-47c3-a97e-7d060df9e32b",
+  "version": "2.0",
+  "name": "TestecertoV",
+  "url": "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf",
+  "tests": [{
+    "id": "5aa8818c-5405-4417-8b03-a82899b9d569",
+    "name": "TesteCertoV",
+    "commands": [{
+      "id": "84959251-fe37-4717-9c4c-c0e2f6a2f6d9",
+      "comment": "",
+      "command": "open",
+      "target": "/crm/paginaFaleConosco.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d7b932f-da53-49cf-9d04-8d81086ed048",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f4cc1e4-0ac3-434b-ba0a-29789e537e2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:radioTiposSolicitacoes:0",
+      "targets": [
+        ["id=j_idt24:radioTiposSolicitacoes:0", "id"],
+        ["name=j_idt24:radioTiposSolicitacoes", "name"],
+        ["css=#j_idt24\\3AradioTiposSolicitacoes\\3A 0", "css:finder"],
+        ["xpath=//input[@id='j_idt24:radioTiposSolicitacoes:0']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:radioTiposSolicitacoes']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d88921b7-e197-43b2-9e97-76b6525c9a60",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f094529-c03d-41b4-a1a1-67c2a0eca6ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "Victor cardoso"
+    }, {
+      "id": "4731e836-d1b4-4050-9291-e2ba177f16fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "victorbaptista@unigranrio.br"
+    }, {
+      "id": "ffb28148-4208-4219-a8f4-7b7b3a895ff1",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce17a66e-8726-4483-987b-1048fda83bbb",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [],
+      "value": "label=Acadêmico Graduação"
+    }, {
+      "id": "a71f8f5c-3807-4d43-9e50-b86790b69635",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bd84760-5240-452b-baca-3531b12790b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a627648-d122-4785-be6f-44456df97e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Elogio ao Professor Tiago"
+    }, {
+      "id": "1c599b1b-246c-4589-a804-0e19bc1d0746",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:j_idt26_content",
+      "targets": [
+        ["id=j_idt24:j_idt26_content", "id"],
+        ["css=#j_idt24\\3Aj_idt26_content", "css:finder"],
+        ["xpath=//div[@id='j_idt24:j_idt26_content']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt24:j_idt26']/div[2]", "xpath:idRelative"],
+        ["xpath=//center/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d955f0-4031-4fa2-b5dc-57ec52301d13",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f6dd7a8-890c-41e8-872c-982bf5ec641b",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Professor o senhor é 10!"
+    }, {
+      "id": "14300088-c59e-4087-856e-9b10d6577f75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text:nth-child(1)",
+      "targets": [
+        ["css=.ui-button-text:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='j_idt24:j_idt85']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b621d4-5fca-480e-98a8-f0ebdfb5c327",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt30:painelInterno_header",
+      "targets": [
+        ["id=j_idt30:painelInterno_header", "id"],
+        ["css=#j_idt30\\3ApainelInterno_header", "css:finder"],
+        ["xpath=//div[@id='j_idt30:painelInterno_header']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt30:painelInterno']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "822ef3b8-46c3-4a6a-87a4-cfc841e708b8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ui-panel-title > div",
+      "targets": [
+        ["css=.ui-panel-title > div", "css:finder"],
+        ["xpath=//div[@id='j_idt30:painelInterno_header']/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": "Informações do Atendimento"
+    }]
+  }, {
+    "id": "78bcac10-bd32-42e0-b7c7-ca29c571e0a9",
+    "name": "TesteErradoV",
+    "commands": [{
+      "id": "fe8b4d64-0462-48cd-9222-ff7c8a903c72",
+      "comment": "",
+      "command": "open",
+      "target": "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d9bf804-d3c3-4e7a-b1c9-08daa7036fef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b65e70c-8142-458b-a870-d8e15e85320b",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:radioTiposSolicitacoes:0",
+      "targets": [
+        ["id=j_idt24:radioTiposSolicitacoes:0", "id"],
+        ["name=j_idt24:radioTiposSolicitacoes", "name"],
+        ["css=#j_idt24\\3AradioTiposSolicitacoes\\3A 0", "css:finder"],
+        ["xpath=//input[@id='j_idt24:radioTiposSolicitacoes:0']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:radioTiposSolicitacoes']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce80c94a-07cb-4e10-9e91-ff4300916de2",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e21dd73-8af3-439a-af77-a0136429d866",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "Victor cardoso"
+    }, {
+      "id": "2908d7bb-224e-4dc0-9033-28704ba2163e",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa4c90e-b408-4914-86f7-715c96a094b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "victorbaptista@unigranrio.br"
+    }, {
+      "id": "fa230a19-984f-4379-bb67-76f3a6e00e9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8c48231-f5a3-451c-a170-7fe5ba52cddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55578688-20e1-479c-9c55-729c0e96cb21",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e10736d-f262-4737-98b8-51aef354e7ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Elogio ao professor Tiago"
+    }, {
+      "id": "562e1f54-23e5-4735-a625-018347b6c910",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c723e601-fe66-4bc5-9d06-5d2517d1a312",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=j_idt24:telefone",
+      "targets": [
+        ["id=j_idt24:telefone", "id"],
+        ["name=j_idt24:telefone", "name"],
+        ["css=#j_idt24\\3Atelefone", "css:finder"],
+        ["xpath=//input[@id='j_idt24:telefone']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c3b33f-26ef-466b-a9d9-2449d5a5f4a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_idt24\\3Agrid > tbody",
+      "targets": [
+        ["css=#j_idt24\\3Agrid > tbody", "css:finder"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6783bcd1-426d-4c11-b75a-12f9604f91e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Muito boas suas aulas!"
+    }, {
+      "id": "54ab8d40-a870-4450-adf8-4e7b15ebd353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text:nth-child(1)",
+      "targets": [
+        ["css=.ui-button-text:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='j_idt24:j_idt85']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c73d2ac-7801-4944-93f4-54d97fa02015",
+      "comment": "",
+      "command": "click",
+      "target": "css=li",
+      "targets": [
+        ["css=li", "css:finder"],
+        ["xpath=//div[@id='j_idt22']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'A Área deve ser informada.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "419e9c3f-8aa2-4389-94b2-c6de5a903c3b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ui-messages-error-summary",
+      "targets": [
+        ["css=.ui-messages-error-summary", "css:finder"],
+        ["xpath=//div[@id='j_idt22']/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'A Área deve ser informada.')]", "xpath:innerText"]
+      ],
+      "value": "Informações do Atendimento"
+    }]
+  }],
+  "suites": [{
+    "id": "eac69034-37ab-4f17-b85f-1d8c24f54d96",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5aa8818c-5405-4417-8b03-a82899b9d569"]
+  }],
+  "urls": ["http://uniatendimento.unigranrio.edu.br/", "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf"],
+  "plugins": []
+}
